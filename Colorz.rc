@@ -1,0 +1,162 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBOX DIALOGEX 0, 0, 148, 110
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Colorz 1.3.1"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "Sample Text",IDC_STATIC_PREVIEW,0,0,65,33,SS_CENTERIMAGE,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    SCROLLBAR       IDC_SCROLLBAR_R,66,0,81,11,WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_G,66,11,81,11,WS_TABSTOP
+    SCROLLBAR       IDC_SCROLLBAR_B,66,22,81,11,WS_TABSTOP
+    GROUPBOX        "Mode",IDC_STATIC,2,35,64,30,BS_CENTER
+    RADIOBUTTON     "&Background",IDC_RADIO_BACKGND,6,43,53,10,WS_GROUP
+    RADIOBUTTON     "F&oreground",IDC_RADIO_FOREGND,6,53,53,10
+    GROUPBOX        "For&mat",IDC_STATIC,2,67,64,41,BS_CENTER
+    CONTROL         "&Decimal",IDC_RADIO_DECIMAL,"Button",BS_AUTORADIOBUTTON | WS_GROUP,6,76,53,10
+    CONTROL         "&Float",IDC_RADIO_FLOAT,"Button",BS_AUTORADIOBUTTON,6,86,53,10
+    CONTROL         "&Hex",IDC_RADIO_HEX,"Button",BS_AUTORADIOBUTTON,6,96,53,10
+    CONTROL         "&Grayscale",IDC_CHECK_GRAYSCL,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,71,36,71,10
+    CONTROL         "On &Top",IDC_CHECK_ONTOP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,46,71,9
+    CONTROL         "Grab &Color",IDC_CHECK_GRABCLR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,56,71,9
+    CONTROL         "&Auto Copy",IDC_CHECK_AUTOCOPY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,66,71,9
+    CONTROL         "",IDC_STATIC_INFO,"Static",SS_ETCHEDFRAME,69,78,76,30,WS_EX_DLGMODALFRAME
+    CTEXT           "0, 0, 0",IDC_STATIC_OUTPUT,73,85,68,16,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 141
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Colorz.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,1,0
+ PRODUCTVERSION 1,3,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Author", "Jeremy Falcon"
+            VALUE "Comments", "Colorz is licensed as Freeware."
+            VALUE "FileDescription", "Aids developers with color intensities."
+            VALUE "FileVersion", "1.3.1"
+            VALUE "InternalName", "Colorz"
+            VALUE "LegalCopyright", "©2000-2006 Jeremy Falcon"
+            VALUE "LegalTrademarks", "Colorz is not a legal trademark of Jeremy Falcon."
+            VALUE "OriginalFilename", "Colorz.exe"
+            VALUE "ProductName", "Colorz"
+            VALUE "ProductVersion", "1.3.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
